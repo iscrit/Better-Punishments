@@ -1,4 +1,4 @@
-#==============================================
+``` #==============================================
 # FancyModeration
 # Skript Made By Critical
 # DO NOT DISTRIBUTE WITHOUT PREMISSION
@@ -162,4 +162,4 @@ command /warntemps <player>:
 		format slot 0 of player with green wool named "&fNaked Killing" with lore "&f1st offense" and "&fJail if 2nd offense" to close then run [execute player command "litebans:warn %arg-1% Naked killing 1st offense (/nkill)"]
 		format slot 1 of player with yellow wool named "&fStaff Disrespect" to close then run [execute player command "vulcan freeze %arg-1%"]
 		play sound "entity.experience_orb.pickup" with volume 0.5 at pitch 1 to arg 1
-		format slot 26 of player with barrier named "&cCancel" to run [execute player command "punish %arg-1%"]
+		format slot 26 of player with barrier named "&cCancel" to run [execute player command "punish %arg-1%"] ```
